@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ki Seki's Site</title>
+    <style>
+        body {
+            text-align: center;
+            width: 350px;
+            margin: 0 auto;
+            margin-top: 200px;
+            background-image: url(https://img.imgdb.cn/item/601abdb73ffa7d37b30db33c.jpg);
+            background-repeat: repeat;
+            background-blend-mode: darken;
+            color: white;
+        }
+        div#box {
+            width: 170px;
+            margin: 0 auto;
+        }
+        div#preffix {
+            opacity: 0;
+            float: left;
+            margin-top: 35px;
+            width: 60px;
+            text-align: left;
+        }
+        div#number {
+            font-family: monospace;
+            float: left;
+            font-size: 50px;
+            width: 30px;
+        }
+        div#suffix {
+            float: left;
+            margin-top: 35px;
+            width: 60px;
+            text-align: left;
+        }
+        div#subtitle {
+            float: left;
+            font-size: 22px;
+                }
+    </style>
+</head>
+<body>
+    <div id="box">
+        <div id="preffix">
+            abc
+        </div>
+        <div id="number">
+            loading...
+        </div>
+        <div id="suffix">
+            loading...
+        </div>
+    </div>
+    <br>
+    <div id="subtitle">
+        day since <i> ki-seki.site </i> was created on Feb. 3, 2021.
+    </div>
+    <script>
+        var start = new Date(2021, 2 - 1, 3).getTime();
+        var end = Date.now();
+        var runningDays = Math.ceil((end - start) / (24 * 3600 * 1000));
+        var suffixs = {0: "th", 1: "st", 2: "nd", 3: "rd", 4: "th"};
+        document.getElementById("number").innerHTML = runningDays;
+        if (runningDays % 10 < 4)
+            document.getElementById("suffix").innerHTML = suffixs[runningDays % 10] + ".";
+        else
+            document.getElementById("suffix").innerHTML = suffixs[4] + ".";
+    </script>
+</body>
+</html>
