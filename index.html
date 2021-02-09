@@ -2,74 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ki Seki's Site</title>
-    <style>
-        body {
-            text-align: center;
-            width: 350px;
-            margin: 0 auto;
-            margin-top: 200px;
-            background-image: url(https://img.imgdb.cn/item/601abdb73ffa7d37b30db33c.jpg);
-            background-repeat: repeat;
-            background-blend-mode: darken;
-            color: white;
-        }
-        div#box {
-            width: 170px;
-            margin: 0 auto;
-        }
-        div#preffix {
-            opacity: 0;
-            float: left;
-            margin-top: 35px;
-            width: 60px;
-            text-align: left;
-        }
-        div#number {
-            font-family: monospace;
-            float: left;
-            font-size: 50px;
-            width: 30px;
-        }
-        div#suffix {
-            float: left;
-            margin-top: 35px;
-            width: 60px;
-            text-align: left;
-        }
-        div#subtitle {
-            float: left;
-            font-size: 22px;
-                }
-    </style>
+    <title>ki-seki.site</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 </head>
 <body>
-    <div id="box">
-        <div id="preffix">
-            abc
+    <div id="content" class="animate__animated animate__jello">
+        <div id="counter">
+            <div id="preffix"> Error. </div>
+            <div id="number"> Error. </div>
+            <div id="suffix"> Error. </div>
         </div>
-        <div id="number">
-            loading...
-        </div>
-        <div id="suffix">
-            loading...
+        <div id="subtitle">
+            day since <i> ki-seki.site </i> was created on <br>
+            Feb. 3, 2021.
         </div>
     </div>
-    <br>
-    <div id="subtitle">
-        day since <i> ki-seki.site </i> was created on Feb. 3, 2021.
+    <div id="footer" class="animate__animated animate__jello">
+        <a href="https://github.com/Ki-Seki/ki-seki.site"> GitHub </a>
     </div>
-    <script>
-        var start = new Date(2021, 2 - 1, 3).getTime();
-        var end = Date.now();
-        var runningDays = Math.ceil((end - start) / (24 * 3600 * 1000));
-        var suffixs = {0: "th", 1: "st", 2: "nd", 3: "rd", 4: "th"};
-        document.getElementById("number").innerHTML = runningDays;
-        if (runningDays % 10 < 4)
-            document.getElementById("suffix").innerHTML = suffixs[runningDays % 10] + ".";
-        else
-            document.getElementById("suffix").innerHTML = suffixs[4] + ".";
-    </script>
+    <script src="./index.js"></script>
 </body>
 </html>

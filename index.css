@@ -1,0 +1,68 @@
+body {
+    background-image: url(./bg.jpg);
+    width: 400px;
+    text-align: center;
+    margin: auto;
+    margin-top: 200px;
+}
+
+#content {
+    color: white;
+}
+
+#counter {
+    height: 60px;
+    margin: auto;
+    width: 400px;
+    font-family: serif;
+}
+
+#preffix {
+    float: left;
+    margin-top: 30px;
+    width: 70px;
+    opacity: 0;
+}
+
+#number {
+    float: left;
+    font-size: 50px;
+    font-family: monospace;
+    width: 20px;
+}
+
+#suffix {
+    float: left;
+    margin-top: 30px;
+    width: 70px;
+    text-align: left;
+}
+
+#subtitle {
+    font-size: 22px;
+}
+
+#footer {
+    font-size: 18px;
+    font-weight: 100;
+    position: fixed;
+    bottom: 10px;
+    text-align: center;
+    text-shadow: 0 0 20px rgb(255, 183, 0);
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 6px;
+    left: calc(50% - 30px);  /* 需根据最终大小调整数据 */
+}
+
+#footer a {
+    color: white;
+}
+
+#footer a:link, a:visited {
+    text-decoration:none;
+}
+
+#footer a:hover, a:active {
+    text-decoration:underline;
+}
