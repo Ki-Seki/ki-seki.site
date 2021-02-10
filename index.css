@@ -3,7 +3,7 @@ body {
     width: 350px;
     text-align: center;
     margin: auto;
-    margin-top: calc(50% - 58.8px);
+    margin-top: 100px;
 }
 
 #content {
@@ -43,7 +43,7 @@ body {
     font-size: 14px;
     font-weight: 100;
     position: fixed;
-    bottom: 10px;
+    bottom: 30px;
     text-align: center;
     text-shadow: 0 0 40px rgb(255, 183, 0);
     display: inline-block;

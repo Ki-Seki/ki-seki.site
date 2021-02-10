@@ -4,7 +4,7 @@ document.getElementById("number").innerHTML = days;
 document.getElementById("suffix").innerHTML = getSuffix(days);
 
 // 运行天数显示样式
-var numberWidth = String(days).length * 25;
+var numberWidth = String(days).length * 27;
 var counterWidth = 350;  // <body> 默认宽度
 var suffixWidth = (counterWidth - numberWidth) / 2;
 document.getElementById("number").style.width = numberWidth + "px";
