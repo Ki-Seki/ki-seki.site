@@ -20,3 +20,4 @@
 - 2021.02.07 - 使用 tomcat 在阿里云正式建站；GitHub 同步代码等
 - 2021.02.10 - 改变对运行天数的适配能力；按照 html，js，css 文件分开编码；增加 MIT 证书；使用 animate.css 动效库等
 - 2021.02.11 - 多端适配；增加简单的 GitHub 用户视觉引导；调整数字与后缀间的间距；调整 GitHub 链接距低端的距离；优化 README.md；增加翻译项
+- 2021.02.12 - 纠正 index.js 中的 getSuffix(days)

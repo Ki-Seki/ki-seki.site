@@ -20,3 +20,4 @@ This is the repository of my site - [ki-seki.site](http://ki-seki.site)
 - 2021.02.07 - formally create the site using Alibaba Cloud services; create repository remotely
 - 2021.02.10 - optimize the codes
 - 2021.02.11 - add href to GitHub; update the README file; translate
+- 2021.02.12 - correct getSuffix(days) in index.js

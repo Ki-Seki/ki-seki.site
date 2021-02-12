@@ -18,7 +18,7 @@ function getRunningDays() {
 }
 
 function getSuffix(days) {
-    var suffixs = {1: "st.", 2: "nd.", 3: "rd.", 4: "th."};
+    var suffixs = {0: "th.", 1: "st.", 2: "nd.", 3: "rd."};
     if (days % 10 < 4) return suffixs[runningDays % 10];
-    else return suffixs[4];
+    else return suffixs[0];
 }
