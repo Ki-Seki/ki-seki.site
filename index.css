@@ -30,6 +30,9 @@ html, body {
     width: 79%;
     margin: 0 auto;
 }
+.jumbotron .only-xs {
+    display: none;
+}
 
 /* 多栏式引导 */
 .intro {
@@ -104,6 +107,9 @@ figure {
 }
 
 /* 联系我 */
+.connect .row {
+    margin: 0 auto;
+}
 .connect h2 {
     margin-bottom: 2rem;
 }
@@ -137,7 +143,7 @@ figure {
 .fa-zhihu:hover {
     color: #d5d5d5;
 }
-.social a img:hover {
+.social a.csdn:hover {
     opacity: 50%;
 }
 
@@ -163,7 +169,10 @@ figure {
 /* 媒体查询 */
 @media (max-width: 992px) {
     .carousel-caption h1 {
-        font-size: 5rem;
+        font-size: 4.1rem;
+    }
+    .jumbotron {
+        padding: 2rem;
     }
     .jumbotron .row {
         width: 86%;
@@ -171,20 +180,47 @@ figure {
 }
 @media (max-width: 768px) {
     .carousel-caption h1 {
-        font-size: 4rem;
+        font-size: 3.2rem;
+    }
+    .jumbotron {
+        padding: 1rem;
     }
     .jumbotron .row {
         width: 92%;
     }
+
+    .social a {
+        font-size: 35px;
+    }
+    .social a img {
+        height: 25px;
+    }
 }
 @media (max-width: 576px) {
     .carousel-caption h1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
+    }
+
+
+    .jumbotron {
+        padding: 10px;
+    }
+    .jumbotron p {
+        font-size: 1rem;
+    }
+    .jumbotron .not-xs {
+        display: none;
+    }
+    .jumbotron .only-xs {
+        display: inherit;
+    }
+    .jumbotron .row div {
+        padding: 5px;
     }
     .jumbotron .row {
         width: 100%;
     }
-    .jumbotron .portrait {
-        display: none;
+    .jumbotron footer {
+        width: 85%;
     }
 }
