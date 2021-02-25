@@ -1,0 +1,56 @@
+body {
+    background-image: url(./bg.jpg);
+    width: 350px;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+    color: white;
+}
+
+#counter {
+    height: 60px;
+    margin: auto;
+    width: 350px;
+    font-family: serif;
+}
+
+#number {
+    float: left;
+    font-size: 50px;
+    font-family: monospace;
+    width: 195px;
+    text-align: right;
+}
+
+#suffix {
+    float: left;
+    margin-top: 30px;
+    width: 155px;
+    text-align: left;
+}
+
+#footer {
+    font-size: 14px;
+    font-weight: 100;
+    position: fixed;
+    bottom: 30px;
+    text-align: center;
+    text-shadow: 0 0 40px rgb(255, 183, 0);
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 6px;
+    border: 1px solid white;
+    left: calc(50% - 33.25px);  /* 需根据最终大小调整数据 */
+}
+
+#footer a {
+    color: white;
+}
+
+#footer a:link, a:visited {
+    text-decoration:none;
+}
+
+#footer a:hover, a:active {
+    text-decoration:underline;
+}
