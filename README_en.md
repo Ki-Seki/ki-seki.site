@@ -1,4 +1,4 @@
-[简体中文](./README_cn.md) | Engilsh
+[简体中文](./README.md) | Engilsh
 
 # ki-seki.site
 
