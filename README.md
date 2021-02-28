@@ -31,3 +31,4 @@
 - 2021.02.12 - 纠正 index.js 中的 getSuffix(days)
 - 2021.02.15 - 系统性更正显示问题
 - 2021.02.25 - ***小站更新到 v2.0***；全面使用 Bootstrap 4 框架，FontAwesome 图标字体库（临时借鉴 [YouTube 博主 Drew Ryan 的教程](https://www.youtube.com/watch?v=9cKsq14Kfsw)）；标注 ICP 备案信息；仓库默认显示中文版 README；“介绍”，“联系我”部分更新移动端适配；readme 英文版更新
+- 2021.02.28 - 改错

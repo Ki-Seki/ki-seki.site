@@ -107,12 +107,6 @@ figure {
 }
 
 /* 联系我 */
-.connect .row {
-    margin: 0 auto;
-}
-.connect h2 {
-    margin-bottom: 2rem;
-}
 .social a {
     font-size: 70px;
     padding: 30px;

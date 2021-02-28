@@ -31,3 +31,4 @@ In the future, there will be Markdown system and much more pure HTML, CSS, JS co
 - 2021.02.12 - correct getSuffix(days) in index.js
 - 2021.02.15 - comprehensively correct displaying problem
 - 2021.02.25 - ***upgrade to v2.0***; comprehensively using BS4, FontAwesome, etc.(refer to [YouTuber Drew Ryan's tutorial](https://www.youtube.com/watch?v=9cKsq14Kfsw)); add ICP info.; set the Chinese README as the default; optimize *Intro* & *Connect* part; update English README
+- 2021.02.28 - correct errors
