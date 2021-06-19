@@ -20,6 +20,7 @@ In the future, there will be Markdown system and much more pure HTML, CSS, JS co
 - [x] translate the web page
 - [ ] add *Album* page
 - [ ] using more pure HTML, CSS & JS
+- [ ] add E-mail subscription system
 
 # Updating Log
 
